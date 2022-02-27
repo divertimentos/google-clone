@@ -7,14 +7,25 @@
   display: flex;
   justify-content: flex-end;
   margin-bottom: 2.5rem;
+  list-style-type: none;
 }
 
-#headerListChild {
+.headerListChild {
   margin-left: 1rem;
-  list-style-type: none;
+}
+
+.nine-dots-menu-parent {
+  display: flex;
+  flex-direction: column;
+}
+
+.nine-dots-menu-child {
+  align-self: flex-end;
+
 }
 
 li:last-of-type {
   margin-right: 1rem;
 }
+
 

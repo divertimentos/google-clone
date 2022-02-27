@@ -1,16 +1,12 @@
 import React from "react";
+import * as S from "./Header.styles";
 
 function Header() {
-  const test = "Hello World";
-  const someFunc = (thing) => {
-    return `I'm just a function that return this: ${thing}`;
-  };
-
   return (
     <ul className="headerListParent">
-      <li id="headerListChild">Gmail</li>
-      <li id="headerListChild">Imagens</li>
-      <li id="headerListChild">Menu</li>
+      <li className="headerListChild">Gmail</li>
+      <li className="headerListChild nine-dots-menu-parent">Imagens</li>
+      <S.NineDotsMenu className="nine-dots-menu-child" />
       <li id="headerListChild">GT</li>
     </ul>
   );
