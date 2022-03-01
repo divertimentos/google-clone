@@ -6,7 +6,6 @@ export const HeaderContainerStyles = styled.div`
   justify-content: flex-end;
   margin: 1rem 0 2rem 0;
   align-items: center;
-  border: orange solid 3px;
 `;
 
 export const GmailAndImages = styled.li`

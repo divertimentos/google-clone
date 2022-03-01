@@ -9,5 +9,3 @@ export const GoogleLogoImage = styled.img`
   height: 7rem;
   width: auto;
 `;
-
-

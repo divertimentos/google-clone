@@ -1,5 +1,5 @@
 import React from "react";
-import * as S from './GoogleLogo.styles'
+import * as S from "./GoogleLogo.styles";
 
 function GoogleLogo() {
   const logo = require("../../Images/google-logo.png");
