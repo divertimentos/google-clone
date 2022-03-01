@@ -4,11 +4,12 @@ export const SearchBarContainerStyle = styled.div`
   display: flex;
   justify-content: center;
   margin: 2.5rem 0 0 0;
+  align-items: center;
 `;
 export const SearchBarIconStyle = styled.img`
-  border: solid orange 2px;
   height: 2rem;
   width: 2rem;
+  margin: 0 0.5rem;
 `;
 
 export const SearchInputStyle = styled.input`
