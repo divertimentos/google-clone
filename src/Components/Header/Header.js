@@ -4,12 +4,13 @@ import {
   ProductsMenu,
   HeaderContainer,
   ProfilePic,
-} from "./HeaderItems/HeaderItems";
+} from "./HeaderItems";
 
 function Header() {
+  const itemsArray = ["Gmail", "Imagens"];
   return (
     <HeaderContainer>
-      <HeaderItems items={["Gmail", "Imagens"]} />
+      <HeaderItems items={itemsArray} />
       <ProductsMenu />
       <ProfilePic />
     </HeaderContainer>

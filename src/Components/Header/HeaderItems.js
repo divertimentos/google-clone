@@ -1,5 +1,5 @@
 import React from "react";
-import * as S from "../Header.styles";
+import * as S from "./Header.styles";
 import profilePic from "../../Images/profile-pic.png";
 
 export function HeaderItems({ items }) {

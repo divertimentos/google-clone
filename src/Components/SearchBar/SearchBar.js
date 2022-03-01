@@ -1,16 +1,19 @@
 import React from "react";
-import * as S from "./SearchBar.styles";
-import { SearchBarIcon } from "./SearchBarItems";
+import {
+  SearchBarIcon,
+  SearchBarContainer,
+  SearchInput,
+} from "./SearchBarItems";
 
 function SearchBar() {
   const magnifyingGlassLogo = require("../../Images/google-glass.png");
   const googleKeyboardLogo = require("../../Images/google-keyboard.png");
   return (
-    <S.SearchBarContainer>
+    <SearchBarContainer>
       <SearchBarIcon iconPath={magnifyingGlassLogo} />
-      <S.SearchInput type="search" />
+      <SearchInput type="search" />
       <SearchBarIcon iconPath={googleKeyboardLogo} />
-    </S.SearchBarContainer>
+    </SearchBarContainer>
   );
 }
 

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as MenuIcon } from "../Images/nine-dots-menu.svg";
+import { ReactComponent as MenuIcon } from "../../Images/nine-dots-menu.svg";
 
 export const HeaderContainerStyles = styled.div`
   display: flex;

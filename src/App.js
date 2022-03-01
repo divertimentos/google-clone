@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Header from "./Components/Header";
+import Header from "./Components/Header/Header"
 import GoogleLogo from "./Components/GoogleLogo/GoogleLogo";
 import SearchBar from "./Components/SearchBar/SearchBar";
 
