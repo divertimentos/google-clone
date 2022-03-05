@@ -30,7 +30,7 @@ export const SearchInputStyle = styled.div`
 export const InnerSearchInputStyles = styled.input`
   border: none;
   width: 39rem;
-  height: 3.4rem;
+  height: 3rem;
   :focus {
     outline: none;
   }
