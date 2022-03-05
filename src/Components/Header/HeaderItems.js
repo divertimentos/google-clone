@@ -9,13 +9,21 @@ export function HeaderItems({ items }) {
 }
 
 export function ProductsMenu() {
-  return <S.DotsMenu />;
+  return (
+    <S.DotsMenuContainer>
+      <S.DotsMenu />
+    </S.DotsMenuContainer>
+  );
 }
 
-export function ProfilePic(text) {
+export function ProfilePic() {
   return <S.ProfilePicStyles src={profilePic} />;
 }
 
 export function HeaderContainer({ children }) {
-  return <S.HeaderContainerStyles>{children}</S.HeaderContainerStyles>;
+  return (
+    <S.HeaderContainerStyles>
+      <S.HeaderItemsStyles>{children}</S.HeaderItemsStyles>
+    </S.HeaderContainerStyles>
+  );
 }

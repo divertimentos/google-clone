@@ -4,20 +4,37 @@ import { ReactComponent as MenuIcon } from "../../Images/nine-dots-menu.svg";
 export const HeaderContainerStyles = styled.div`
   display: flex;
   justify-content: flex-end;
-  margin: 1rem 0 2rem 0;
   align-items: center;
+  margin-right: 0.5rem;
+`;
+
+export const HeaderItemsStyles = styled.ul`
+  border: green solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
 `;
 
 export const GmailAndImages = styled.li`
-  margin-right: 0.93rem;
   list-style-type: none;
+  // border: red solid 1px;
+  :hover {
+    text-decoration: underline;
+  }
+`;
+
+export const DotsMenuContainer = styled.div`
+  // border: orange solid 1px;
+  :hover {
+    border: blue solid 1px;
+  }
 `;
 
 export const DotsMenu = styled(MenuIcon)`
-  height: 30px;
-  width: auto;
+  height: 25px;
   fill: #6e7276;
-  margin-right: 0.93rem;
+
 `;
 
 export const ProfilePicStyles = styled.img`
