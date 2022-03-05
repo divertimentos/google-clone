@@ -13,3 +13,7 @@ export function SearchBarIcon({ iconPath }) {
 export function SearchInput({children}) {
     return <S.SearchInputStyle>{children}</S.SearchInputStyle> 
 }
+
+export function InnerSearchInput() {
+  return <S.InnerSearchInputStyles type="text" />
+}

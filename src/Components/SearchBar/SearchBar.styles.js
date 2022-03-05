@@ -8,9 +8,11 @@ export const SearchBarContainerStyle = styled.div`
 `;
 
 export const SearchBarIconStyle = styled.img`
-  height: 2rem;
-  width: 2rem;
+  height: 1.5rem;
+  width: 1.5rem;
   margin: 0 0.5rem;
+  fill: orange;
+  color: red;
 `;
 
 export const SearchInputStyle = styled.div`
@@ -23,4 +25,13 @@ export const SearchInputStyle = styled.div`
   justify-content: space-between;
   padding: 0 1rem 0;
   align-items: center;
+`;
+
+export const InnerSearchInputStyles = styled.input`
+  border: none;
+  width: 39rem;
+  height: 3.4rem;
+  :focus {
+    outline: none;
+  }
 `;
