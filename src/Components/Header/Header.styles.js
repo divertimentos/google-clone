@@ -9,23 +9,24 @@ export const HeaderContainerStyles = styled.div`
 `;
 
 export const HeaderItemsStyles = styled.ul`
-  border: green solid 1px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 15%;
+  justify-content: space-around;
+  width: auto;
+  padding-left: 0;
 `;
 
 export const GmailAndImages = styled.li`
   list-style-type: none;
-  // border: red solid 1px;
+  margin-right: 1.5rem;
   :hover {
     text-decoration: underline;
   }
 `;
 
 export const DotsMenuContainer = styled.div`
-  // border: orange solid 1px;
+  margin-right: 1.5rem;
+  border: white solid 1px;
   :hover {
     border: blue solid 1px;
   }
@@ -34,7 +35,6 @@ export const DotsMenuContainer = styled.div`
 export const DotsMenu = styled(MenuIcon)`
   height: 25px;
   fill: #6e7276;
-
 `;
 
 export const ProfilePicStyles = styled.img`
