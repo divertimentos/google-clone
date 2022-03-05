@@ -3,7 +3,9 @@ import * as S from "./Header.styles";
 import profilePic from "../../Images/profile-pic.png";
 
 export function HeaderItems({ items }) {
-  return items.map((item) => <S.GmailAndImages>{item}</S.GmailAndImages>);
+  return items.map((item) => (
+    <S.GmailAndImages key={Math.random() * 100000}>{item}</S.GmailAndImages>
+  ));
 }
 
 export function ProductsMenu() {

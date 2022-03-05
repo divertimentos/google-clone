@@ -9,6 +9,7 @@ export function SearchBarIcon({ iconPath }) {
   return <S.SearchBarIconStyle src={iconPath} />;
 }
 
-export function SearchInput() {
-  return <S.SearchInputStyle type="search" />;
+
+export function SearchInput({children}) {
+    return <S.SearchInputStyle>{children}</S.SearchInputStyle> 
 }
