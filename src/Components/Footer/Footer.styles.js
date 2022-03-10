@@ -4,11 +4,12 @@ export const FooterContainer = styled.footer`
   position: fixed;
   left: 0;
   bottom: 0;
+  // width: 97.7%;
   width: 100%;
   background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
-  // height: 10%;
+  border: solid orange 20px;
 `;
 
 export const FirstRow = styled.div`
@@ -23,7 +24,6 @@ export const LastRow = styled.div`
 `;
 
 export const RowItemContainer = styled.div`
-  border: orange solid 2px;
 `;
 
 export const RowItem = styled.a`
