@@ -18,8 +18,16 @@ export const FirstRow = styled.div`
 
 export const LastRow = styled.div`
   padding: 15px;
+  display: flex;
+  justify-content: space-between;
+`;
+
+export const RowItemContainer = styled.div`
+  border: orange solid 2px;
 `;
 
 export const RowItem = styled.a`
   margin: 1rem;
+  font-size: 14px;
+  color: #70757a;
 `;
